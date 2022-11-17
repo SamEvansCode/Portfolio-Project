@@ -20,12 +20,13 @@ main {
     align-items: center;
     justify-content: space-between;
     top: 0;
+    border-bottom: #263326 1px solid;
 }
 
 .name {
     display: flex;
     position: relative;
-    margin-left: 13%;
+    margin-left: 18%;
     font-size: 4rem;
 }
 
@@ -44,7 +45,7 @@ main {
     justify-content: space-evenly;
     flex-direction: row;
     width: 100%;
-    height: 30rem;
+    height: 25rem;
     justify-content: center;
     align-items: center;
 }
@@ -57,7 +58,7 @@ main {
 
 .about-container {
     display: flex;
-    padding: 5rem;
+    margin: 5rem;
     flex-direction: column;
     align-items: flex-start;
 }
@@ -79,7 +80,7 @@ main {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 15rem;
+    height: 10rem;
     justify-content: right;
     align-items: center;
 }
@@ -126,7 +127,7 @@ main {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 30rem;
+    height: 15rem;
     justify-content: left;
     align-items: center;
 }
@@ -155,7 +156,53 @@ main {
 
 /*Contact*/
 
-/*Dark Mode*/
+.contact {
+    display: flex;
+    height: 15rem;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.button-design {
+    border: 3px solid #000;
+    border-radius: 0;
+    box-sizing: border-box;
+    color: #000;
+    font-weight: 700;
+    letter-spacing: .05em;
+    margin: 0;
+    overflow: visible;
+    padding: 1.25em 2em;
+    position: relative;
+    transition: all .3s ease-in-out;
+    width: 16.8125rem;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.button-design:hover {
+    color: white;
+    background-color: black;
+  }
+
+.button-design:active {
+    background: white;
+    color: black;
+    font-size: 18px;
+    transition: font-size .1s ease-in-out;
+}
 
 /*Footer*/
 
+#footer {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    font-size: larger;
+    width: 100%;
+    border-top: #263326 1px solid;
+}
