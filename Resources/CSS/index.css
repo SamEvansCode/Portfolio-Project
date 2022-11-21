@@ -84,7 +84,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 10rem;
+    min-height: 10rem;
     justify-content: right;
     align-items: center;
 }
@@ -100,7 +100,7 @@ a:hover {
 }
 
 .collapsible {
-    background-color: #8C0505;
+    background-color: #5E5E5E;
     color: white;
     cursor: pointer;
     padding: 0.25rem;
@@ -112,17 +112,22 @@ a:hover {
 
 .active,
 .collapsible:hover {
-    background-color: #590404;
+    background-color: #ABABAB;
 }
 
 .collapsibile-content {
     display: none;
     overflow: hidden;
-    background-color: #D94A4A;
+    background-color: lightgray
+    
 }
 
 .project-pic {
-    height: 30rem;
+    height: 19rem;
+}
+
+.project-description {
+    text-align: center;
 }
 
 /*Skills*/
@@ -251,3 +256,5 @@ a:hover {
     height: 10.5rem;
     transition: all .3s ease-in-out;
 }
+
+/* Dark Mode */

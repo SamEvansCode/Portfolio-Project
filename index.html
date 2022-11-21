@@ -17,8 +17,8 @@
     <header class="header">
         <h1 class="name">Sam Evans</h1>
         <nav class="navbar">
-                <h3>Projects</h3>
-                <h3>Skills</h3>
+                <a href="#"><h3>Projects</h3></a>
+                <a href="#"><h3>Skills</h3></a>
                 <a href="contact.html"><h3 class="navbar-elements">Contact</h3></a>
         </nav>
     </header>
@@ -48,7 +48,9 @@
             <h2 class="project-title">Projects</h2>
             <button type="button" class="collapsible">Responsive design page using HTML and CSS</button>
             <div class="collapsibile-content">
-                <img src="Resources\Images\THD.png" alt="THD" class="project-pic">
+                <a href="https://github.com/SamEvansCode/THD/tree/main" target="_blank"><img src="Resources\Images\THD.png" alt="THD" class="project-pic"></a>
+                <p class="project-description">Homepage built for a graphic designer. <br>
+                    This was my first attempt at merging HTML and CSS using a flex layout.</p>
             </div>
         </div>
     </section>
@@ -85,7 +87,7 @@
                 <h2>Contact</h2>
             </button>
         </a>
-        <button class="button-design">
+        <button class="button-design" onclick="toggleTheme('dark');">
             <h2>Dark Mode</h2>
         </button>
     </section>
@@ -101,6 +103,10 @@
             <h4>07546443856</h4>
         </section>
     </footer>
+
+    <script src="Resources\JS\Collapsible-button.js"></script>
+    <script src=""></script>
+
 </body>
 
 </html>
